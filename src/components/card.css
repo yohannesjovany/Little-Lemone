@@ -1,0 +1,41 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: lightgray;
+    color: black;
+    padding: .5rem;
+    margin: 1rem;
+}
+
+.badge {
+    position: absolute;
+    background-color: white;
+    color: black;
+    margin: 1rem 1rem;
+    font-size: 1.3rem;
+    padding: .2rem 1rem;
+    border-radius: .3rem;
+}
+
+.card p {
+    margin: 0px;
+}
+
+.card span {
+    display: inline;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.list-cards {
+    display: flex;
+}
